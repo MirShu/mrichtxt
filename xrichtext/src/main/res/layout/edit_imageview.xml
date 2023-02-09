@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.sendtion.xrichtext.DataImageView
+        android:id="@+id/edit_imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/icon_vip_h_pic" />
+
+    <ImageView
+        android:id="@+id/image_close"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:padding="10dp"
+        android:src="@drawable/icon_close" />
+
+</RelativeLayout>
